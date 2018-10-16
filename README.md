@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/StudentESE/myFirstPiP.svg?branch=master)](https://travis-ci.org/StudentESE/myFirstPiP)
 # myFirstPiPy
 Ignore this package ! It is simple showing progress of learning developing reusable python modules
 
