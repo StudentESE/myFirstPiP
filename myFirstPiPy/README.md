@@ -129,7 +129,7 @@ Tests are Classes which subclasses ```unittest.TestCase```. Each Method named `t
 
 ```
 import unittest
-import myModule
+import __init__ as myModule
 class TestMyMethod(unittest.TestCase):
     def test_myMethod(self):
         self.assertEqual(myModule.myMethod(), "Hello PiP")
@@ -156,7 +156,7 @@ Install required packages and generate the ```requirements.txt```
 pip freeze > requirements.txt
 ```
 ##Travis
-Now we can write the `.travis.yml` as follows:
+Now we can write the `.travis.yml` and put it into the same directory as `__init__.py` 
 
 ```
 language: python

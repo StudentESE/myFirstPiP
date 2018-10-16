@@ -129,7 +129,7 @@ Tests are Classes which subclasses ```unittest.TestCase```. Each Method named `t
 
 ```
 import unittest
-import myModule
+import __init__ as myModule
 class TestMyMethod(unittest.TestCase):
     def test_myMethod(self):
         self.assertEqual(myModule.myMethod(), "Hello PiP")
