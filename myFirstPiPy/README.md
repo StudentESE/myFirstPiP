@@ -80,7 +80,7 @@ setuptools.setup(
 To generate the [wheel](https://pythonwheels.com) for native compilations and `tar.gz` for python module - just do:
 
 ```
-cd myFirstPiPy
+cd myFirstPiP
 python setup.py sdist bdist_wheel
 ```
 generates:
