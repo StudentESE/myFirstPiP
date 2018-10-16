@@ -173,7 +173,7 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest
+  - python -m unittest discover -s ./tests -p "test_*"
 ```
 
 # Git
