@@ -160,7 +160,6 @@ Now we can write the `.travis.yml` as follows:
 ```
 language: python
 python:
-  - "2.6"
   - "2.7"
   - "3.3"
   - "3.4"
