@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name="myFirstPiPy",
-    version="0.0.1",
+    version="0.0.3",
     author="Daniel Bunzendahl",
     author_email="StudentDanBu@gmail.com",
     description="My first PiP",

@@ -28,8 +28,9 @@ Also possible:
 
 ```
 #!/usr/bin/python
-from myModule import myMethod, myVariable
-print myVariable
+from myFirstPiPy import *
+print ("myVariable: {}".format(myVariable))
+myMethod()
 
 ```
 
