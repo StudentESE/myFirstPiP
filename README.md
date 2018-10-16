@@ -180,6 +180,7 @@ script:
 # Git
 ```
 cd ..
+git pull
 git add .
 git commit -m "Travis CI Testdrive"
 git push origin master
