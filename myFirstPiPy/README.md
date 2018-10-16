@@ -139,7 +139,8 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-#Continuous Integration (CI)
+# Continuous Integration (CI)
+
 A very interesting solution is Travis which runs tests on Github. To enable Travis CI you need a ```.travis.yml``` after generating a ```requirements.txt```from your ```virtualenv```.
 ##Virtual Environment
 First we need a virtual environment with only pip packages installed are realy neccessary. Based on this the generating of the ```requirements.txt``` is created.
@@ -155,7 +156,8 @@ Install required packages and generate the ```requirements.txt```
 ```
 pip freeze > requirements.txt
 ```
-##Travis
+
+## Travis
 Now we can write the `.travis.yml` and put it into the same directory as `__init__.py` 
 
 ```
