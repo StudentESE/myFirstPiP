@@ -109,8 +109,8 @@ Which will publish your first PiP Package.
 Now we like to go more professional and add [unittests](https://docs.python.org/3/library/unittest.html). So we add a directory where to add tests in multiple files. 
 
 ```
-/myFirstPiPy
-  /myFirstPiPy
+/myFirstPiP
+  /myFirstPiP
     __init__.py
   /tests
     test_var.py
@@ -174,4 +174,12 @@ install:
 # command to run tests
 script:
   - pytest
+```
+
+# Git
+```
+cd ..
+git add .
+git commit -m "Travis CI Testdrive"
+git push origin master
 ```
