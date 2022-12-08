@@ -1,4 +1,4 @@
-certifi==2018.10.15
+certifi==2022.12.7
 pbr==4.3.0
 pipenv==2018.10.13
 virtualenv==16.0.0
